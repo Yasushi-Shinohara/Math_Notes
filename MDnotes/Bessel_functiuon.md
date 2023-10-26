@@ -8,13 +8,10 @@ $$
 J_{-n}(x) = (-1)^n J_n(x)
 $$
 
-
 $$
-e^{\mathrm{i}z \cos \phi}
-=
+e^{\mathrm{i}z \cos \phi} =
 \sum_{n=-\infty}^\infty \mathrm{i}^n J_n(z) e^{\mathrm{i}n \phi}, \\
-e^{\pm \mathrm{i}z \sin \phi}
-=
+e^{\pm \mathrm{i}z \sin \phi} = 
 J_0 (z)
 +
 2 \sum_{n=1}^\infty J_{2n} (z) \cos (2n \phi)
@@ -24,8 +21,8 @@ $$
 
 
 $$
-\int_0^\infty x J_\alpha(ux) J_\beta(vx) \mathrm{d}x
-=
+\int_0^\infty x J_\alpha(ux) J_\beta(vx) \mathrm{d}x =
 \frac{1}{u} \delta(u-v)
 $$
+
 for $\alpha > -1/2$
