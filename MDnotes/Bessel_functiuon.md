@@ -28,3 +28,25 @@ $$
 $$
 
 for $\alpha > -1/2$
+
+### Integrations
+
+```python
+import sympy
+a = sympy.Symbol('a', real=True)
+b = sympy.Symbol('b', real=True)
+x = sympy.Symbol('x', real=True)
+display(sympy.integrate(x * sympy.besselj(0,b*x) * sympy.exp(-a*x**2),(x, 0, sympy.oo)))
+display(sympy.simplify(sympy.integrate(x * sympy.besselj(2,b*x) * sympy.exp(-a*x**2),(x, 0, sympy.oo))))
+```
+
+$$
+\begin{align}
+\int_0^\infty \\! \mathrm{d}x \ x J_0(bx) e^{-ax^2} =
+\frac{e^{-b^2/(4a)}}{a}, \\
+\int_0^\infty \\! \mathrm{d}x \ x J_2(bx) e^{-ax^2} =
+-\frac{e^{-b^2/(4a)}}{a}
++
+\frac{2}{b^2}\left[ 1 - e^{-b^2/(4a)} \right].
+\end{align}
+$$
