@@ -11,11 +11,49 @@ $$
 1 & 0\end{pmatrix},
 \qquad
 \sigma_2 =
-\begin{pmatrix}0 & 1 \\
-1 & 0\end{pmatrix},
+\begin{pmatrix}0 & -\mathrm{i} \\
+\mathrm{i} & 0\end{pmatrix},
 \qquad
 \sigma_3 =
-\begin{pmatrix}0 & 1 \\
-1 & 0\end{pmatrix}.
-\end{align}
+\begin{pmatrix}1 & 0 \\
+0 & -1\end{pmatrix}.
+\tag{*}
+\end{align} 
+$$
+
+## Eigenproblems
+
+$$
+\begin{align}
+A =
+\sum_j a^j \sigma_j \tag{e1} \\
+a^1 = 
+a \sin \theta \cos \phi
+\qquad
+a^2 = 
+a \sin \theta \sin \phi
+\qquad
+a^3 = 
+a \cos \theta. \tag{e2}
+\end{align} 
+$$
+
+$$
+\begin{align}
+A x_{\pm} =
+\pm \left| a \right| x_{\pm}, 
+\qquad
+\left| a \right| = \sqrt{\left(a^1 \right)^2 + \left(a^2 \right)^2 + \left(a^3 \right)^2} \tag{e3} \\
+x_{+} =
+\begin{pmatrix}
+\cos \left( \theta/2 \right) \\
+\sin \left( \theta/2 \right) e^{\mathrm{i}\phi}
+\end{pmatrix},
+\qquad
+x_{-} =
+\begin{pmatrix}
+-\sin \left( \theta/2 \right) e^{-\mathrm{i}\phi} \\
+\cos \left( \theta/2 \right)
+\end{pmatrix}. \tag{e4}
+\end{align} 
 $$
