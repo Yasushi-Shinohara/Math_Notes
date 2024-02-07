@@ -20,6 +20,7 @@ $$
 \tag{*}
 \end{align} 
 $$
+$ \sigma_0 = I$.
 
 ## Eigenproblems
 
@@ -28,13 +29,13 @@ $$
 A =
 \sum_j a_j \sigma_j \tag{e1} \\
 a_1 = 
-a \sin \theta \cos \phi
+a \sin \theta \cos \phi,
 \qquad
 a_2 = 
-a \sin \theta \sin \phi
+a \sin \theta \sin \phi,
 \qquad
 a_3 = 
-a \cos \theta. \tag{e2}
+a \cos \theta.\tag{e2}
 \end{align} 
 $$
 
@@ -56,4 +57,15 @@ x_{-} =
 \cos \left( \theta/2 \right)
 \end{pmatrix}. \tag{e4}
 \end{align} 
+$$
+
+## Matrix function
+$$
+\begin{align}
+  \left( \frac{A}{a} \right)^2 = \sigma_0, \\
+  e^{\pm \mathrm{i} A} =
+  \cos (a ) \sigma_0 
+  \pm
+  \mathrm{i} \sin (a) \left( \frac{A}{a} \right)
+\end{align}
 $$
