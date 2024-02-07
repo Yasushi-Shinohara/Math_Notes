@@ -73,14 +73,10 @@ $$
   \sin (2a) \frac{\left(\mathbf{a} \times \mathbf{\sigma} \right)_i}{a}
   +
   \sin^2 (a ) \frac{A \sigma_i A}{a^2} =
-  \cos (a ) \sigma_0 
-  \pm
-  \mathrm{i} \sin (a) \left( \frac{A}{a} \right), \\
-  e^{- \mathrm{i} A} \sigma_i e^{+ \mathrm{i} A} =
   \cos (2a ) \sigma_i
   +
   \sin (2a) \frac{\left(\mathbf{a} \times \mathbf{\sigma} \right)_i}{a}
   +
-  \frac{1 -\sin (2a )}{2} \left( \frac{A \sigma_i A}{a^2} - \sigma_i \right).
+  \frac{1 -\cos (2a )}{2(?)} \frac{a_i}{a} \frac{A}{a}.
 \end{align}
 $$
