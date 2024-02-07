@@ -26,14 +26,14 @@ $$
 $$
 \begin{align}
 A =
-\sum_j a^j \sigma_j \tag{e1} \\
-a^1 = 
+\sum_j a_j \sigma_j \tag{e1} \\
+a_1 = 
 a \sin \theta \cos \phi
 \qquad
-a^2 = 
+a_2 = 
 a \sin \theta \sin \phi
 \qquad
-a^3 = 
+a_3 = 
 a \cos \theta. \tag{e2}
 \end{align} 
 $$
@@ -43,7 +43,7 @@ $$
 A x_{\pm} =
 \pm \left| a \right| x_{\pm}, 
 \qquad
-\left| a \right| = \sqrt{\left(a^1 \right)^2 + \left(a^2 \right)^2 + \left(a^3 \right)^2} \tag{e3} \\
+\left| a \right| = \sqrt{\left(a_1 \right)^2 + \left(a_2 \right)^2 + \left(a_2 \right)^2} \tag{e3} \\
 x_{+} =
 \begin{pmatrix}
 \cos \left( \theta/2 \right) \\
