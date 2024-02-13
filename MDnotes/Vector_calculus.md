@@ -7,6 +7,6 @@ Reference : [Vector calculus - Wikipedia](https://en.wikipedia.org/wiki/Vector_c
 $$
 \begin{align}
 \left( \mathbf{a} \times \mathbf{b} \right)_i =
-\sum_{jk} a_j b_k
+\sum_{j,k} \varepsilon_{ijk} a_j b_k
 \end{align} 
 $$
