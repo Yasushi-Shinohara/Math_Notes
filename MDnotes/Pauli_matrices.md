@@ -33,7 +33,8 @@ $$
 $$
 \begin{align}
 \left[ \sigma_i, \sigma_j \right] = 2\mathrm{i} \sum_{k} \varepsilon_{ijk} \sigma_k, \\
-\left\\{ \sigma_i, \sigma_j \right\\} = 2\delta_{ij}\simga_0
+\left\\{ \sigma_i, \sigma_j \right\\} = 2\delta_{ij}\sigma_0, \\
+\sigma_i \sigma_j = \delta_{ij} \sigma_0 + \sum_k \varepsilon_{ijk} \sigma_k.
 \end{align} 
 $$
 
