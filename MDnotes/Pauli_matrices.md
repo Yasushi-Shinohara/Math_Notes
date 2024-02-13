@@ -1,8 +1,9 @@
-# Bessel function
+# Pauli Matrices
 
 Reference : [Pauli matrices - Wikipedia](https://en.wikipedia.org/wiki/Pauli_matrices)
 
 ## The definition
+
 
 $$
 \begin{align}
@@ -20,7 +21,21 @@ $$
 \tag{*}
 \end{align} 
 $$
-$ \sigma_0 = I$.
+
+$$
+\sigma_0 = I^{(2\times2)} = 
+\begin{pmatrix}1 & 0 \\
+0 & 1\end{pmatrix}.
+$$
+
+## Commutation relations
+
+$$
+\begin{align}
+\left[ \sigma_i, \sigma_j \right] = 2\mathrm{i} \sum_{k} \varepsilon_{ijk} \sigma_k, \\
+\left\\{ \sigma_i, \sigma_j \right\\} = 2\delta_{ij}\simga_0
+\end{align} 
+$$
 
 ## Eigenproblems
 
