@@ -6,7 +6,13 @@ Reference : [Vector calculus - Wikipedia](https://en.wikipedia.org/wiki/Vector_c
 
 $$
 \begin{align}
-\left( \mathbf{a} \times \mathbf{b} \right)_i =
-\sum_{j,k} \varepsilon_{ijk} a_j b_k
+\left( \mathbf{a} \times \mathbf{b} \right)_i = 
+\sum_{jk} \varepsilon_{ijk} a_j b_k 
+\end{align} 
+$$
+
+$$
+\begin{align}
+\left( \mathbf{a} \times \mathbf{b} \right) \cdot \mathbf{c} = \sum_{ijk} \varepsilon_{ijk} a_j b_k c_i
 \end{align} 
 $$
