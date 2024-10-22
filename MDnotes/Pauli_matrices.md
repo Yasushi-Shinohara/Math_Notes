@@ -91,7 +91,11 @@ a
 $$
 
 $$
-A^n = a^n \left(x_+ x_+^H -  x_- x_-^H \right) = a^{n-1} A.
+A^n = a^n \left[x_+ x_+^H (-)^n  x_- x_-^H \right] = 
+\begin{cases}
+a^{n-1} A & n \in odd.\\
+a^{n} \sigma_0 & n \in even
+\end{cases}
 $$
 
 ## Matrix function
