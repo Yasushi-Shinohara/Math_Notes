@@ -51,14 +51,16 @@ a_2 =
 a \sin \theta \sin \phi,
 \qquad
 a_3 = 
-a \cos \theta.\tag{e2}
+a \cos \theta,
+\qquad
+a > 0\tag{e2}
 \end{align} 
 $$
 
 $$
 \begin{align}
 A x_{\pm} =
-\pm \left| a \right| x_{\pm}, 
+\pm a x_{\pm}, 
 \qquad
 \left| a \right| = \sqrt{\left(a_1 \right)^2 + \left(a_2 \right)^2 + \left(a_2 \right)^2} \tag{e3} \\
 x_{+} =
@@ -73,6 +75,23 @@ x_{-} =
 \cos \left( \theta/2 \right)
 \end{pmatrix}. \tag{e4}
 \end{align} 
+$$
+
+$$
+\begin{align}
+A &=
+a x_+ x_+^H - a x_- x_-^H \\
+&=
+a 
+\begin{pmatrix}
+\cos \theta & \sin \theta e^{-\mathrm{i}\phi} \\
+\sin \theta e^{-\mathrm{i}\phi} & - \cos \theta
+\end{pmatrix}.
+\end{align}
+$$
+
+$$
+A^n = a^n \left(x_+ x_+^H -  x_- x_-^H \right) = a^{n-1} A.
 $$
 
 ## Matrix function
