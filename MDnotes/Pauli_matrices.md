@@ -119,3 +119,11 @@ $$
   \frac{1 -\cos (2a )}{2(?)} \frac{a_i}{a} \frac{A}{a}.
 \end{align}
 $$
+
+```math
+f(A)
+=
+\frac{f(a) + f(-a)}{2} \sigma_0
++
+\frac{f(a) - f(-a)}{2} \frac{A}{a}
+```
