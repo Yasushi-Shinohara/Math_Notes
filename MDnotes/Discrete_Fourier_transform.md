@@ -57,10 +57,17 @@ where $F$ is the normal DFT's one defined above.
 ### Expression for the spatial derivative
 
 ```math
+\begin{align}
 \mathbf{\nabla} \phi
 =
 \sum_{\mathbf{G}} \mathrm{i} \mathbf{G} e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi(\mathbf{G})
 \simeq
-\sum_{\mathbf{G}} \mathrm{i} \mathbf{G} e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi'(\mathbf{G})
+\sum_{\mathbf{G}} \mathrm{i} \mathbf{G} e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi'(\mathbf{G}), \\
+\nabla^2 \phi
+=
+- \sum_{\mathbf{G}} \mathbf{G}^2 e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi(\mathbf{G})
+\simeq
+- \sum_{\mathbf{G}} \mathbf{G}^2 e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi'(\mathbf{G}).
+\end{align}
 ```
 
