@@ -54,3 +54,13 @@ F(m_1, m_2, m_3 ),
 ```
 where $F$ is the normal DFT's one defined above.
 
+### Expression for the spatial derivative
+
+```math
+\mathbf{\nabla} \phi
+=
+\sum_{\mathbf{G}} \mathrm{i} \mathbf{G} e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi(\mathbf{G})
+\simeq
+\sum_{\mathbf{G}} \mathrm{i} \mathbf{G} e^{+\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \Phi'(\mathbf{G})
+```
+
