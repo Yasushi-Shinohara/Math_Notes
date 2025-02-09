@@ -17,5 +17,10 @@ f(n_1, n_2, n_3)
 
 ### DFT for periodic functions on oblique lattices
 
-A real space function $\phi (\mathbf{r})$ and its reciprocal counterpart $\Phi (\mathbf{G})$.
+A real space function $\phi (\mathbf{r})$ and its reciprocal counterpart $\Phi (\mathbf{G})$: 
+```math
+\Phi ( \mathbf{G} )
+=
+\frac{1}{v} \int_v \! \mathrm{d}^3r \ e^{-\mathrm{i}\mathbf{G}\cdot\mathbf{r}} f(\mathbf{r}).
+```
 
