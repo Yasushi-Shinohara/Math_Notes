@@ -21,6 +21,25 @@ A real space function $\phi (\mathbf{r})$ and its reciprocal counterpart $\Phi (
 ```math
 \Phi ( \mathbf{G} )
 =
-\frac{1}{v} \int_v \! \mathrm{d}^3r \ e^{-\mathrm{i}\mathbf{G}\cdot\mathbf{r}} f(\mathbf{r}).
+\frac{1}{v} \int_v \! \mathrm{d}^3r \ e^{-\mathrm{i}\mathbf{G}\cdot\mathbf{r}} \phi(\mathbf{r}).
 ```
+ $v=\left|\mathbf{a}_1 \cdot \left(\mathbf{a}_2 \times \mathbf{a}_3 \right)\right|$
+
+```math
+\begin{align}
+f(n_1, n_2, n_3)
+=
+\phi \left( \frac{n_1}{N_1} \mathbf{a}_1 + \frac{n_2}{N_2} \mathbf{a}_2  + \frac{n_3}{N_3} \mathbf{a}_3 \right), \\
+F(m_1, m_2, m_3)
+=
+\Phi' \left( \frac{m_1}{N_1} \mathbf{b}_1 + \frac{m_2}{N_2} \mathbf{b}_2  + \frac{m_3}{N_3} \mathbf{b}_3 \right), \\
+\Phi' ( \mathbf{G} )
+=
+\frac{1}{v} \frac{v}{N_1 N_2 N_3}\sum_{n_1, n_2, n_3} \ e^{-\mathrm{i}\mathbf{G}\cdot \left( \frac{n_1}{N_1} \mathbf{a}_1 + \frac{n_2}{N_2} \mathbf{a}_2  + \frac{n_3}{N_3} \mathbf{a}_3 \right)} \phi(\left( \frac{n_1}{N_1} \mathbf{a}_1 + \frac{n_2}{N_2} \mathbf{a}_2  + \frac{n_3}{N_3} \mathbf{a}_3 \right)
+\simeq
+\Phi(\mathbf{G}).
+\end{align}
+```
+
+
 
